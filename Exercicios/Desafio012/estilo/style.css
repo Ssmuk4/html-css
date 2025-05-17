@@ -46,10 +46,36 @@ header > p > a{
 }
 
 section{
+    font-size: 2.5vw;
+    font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
 }
+
+section > p{
+    padding-bottom: 2em;
+    
+}
+
+section.imagem > p{
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    color: white;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    color: white;
+    background-size: cover;
+}
+
 
 .normal{
     background-color: white;
